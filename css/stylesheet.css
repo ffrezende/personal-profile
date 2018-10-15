@@ -286,7 +286,7 @@ a:hover {
     background-color: white; }
 
   #content-design .box-title {
-    color: #4CAF50; }
+    color: rgb(2, 34, 34);; }
 
    #content-map .box-title {
     color: #bf40bf; 
@@ -296,7 +296,7 @@ a:hover {
 
   #content-work .box-title {
     color: #3F51B5; } }
-    
+
 @media (max-width: 800px) {
   .container-content {
     color: white; }
