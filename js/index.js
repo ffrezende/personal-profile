@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  // Show/hide content according to button click
   $('#header-top').click(function () {
     $('#header-top').children('i').toggleClass('rotate-180deg');
   })
@@ -16,14 +15,19 @@ $(document).ready(function () {
     $('#header-design').children('i').toggleClass('rotate-180deg');
   });
   
-  $('#header-drawings').click(function () {
-    $('#header-drawings').toggleClass('box-shadow');
+  $('#curriculum').click(function () {
+    $('#curriculum').toggleClass('box-shadow');
     $('#content-drawings').slideToggle('slow');
-    $('#header-drawings').children('i').toggleClass('rotate-180deg');
+    $('#curriculum').children('i').toggleClass('rotate-180deg');
+  });
+
+  $('#mapa').click(function () {
+    $('#mapa').toggleClass('box-shadow');
+    $('#content-map').slideToggle('slow');
+    $('#mapa').children('i').toggleClass('rotate-180deg');
   });
 });
 
-// Slider
 var slideIndex = 1;
 
 function slideShow(container, n) {

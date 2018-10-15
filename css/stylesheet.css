@@ -183,14 +183,17 @@ a:hover {
       float: right;
       font-size: 1.5em; }
 
-#content-design, #content-drawings, #content-work {
+#content-design, #content-drawings, #content-work, #content-map {
   display: none; }
 
 #header-design {
   background-color: #4CAF50; }
 
-#header-drawings {
+#curriculum{
   background-color: #F44336; }
+
+#mapa{
+  background-color: #bf40bf; }
 
 #header-work {
   background-color: #3F51B5; }
@@ -279,17 +282,21 @@ a:hover {
     .slider .slide img {
       max-width: 80%; }
 
-  #content-design, #content-drawings, #content-work {
+  #content-design, #content-drawings, #content-work, #content-map {
     background-color: white; }
 
   #content-design .box-title {
     color: #4CAF50; }
 
+   #content-map .box-title {
+    color: #bf40bf; 
+    };
   #content-drawings .box-title {
     color: rgb(2, 34, 34); }
 
   #content-work .box-title {
     color: #3F51B5; } }
+    
 @media (max-width: 800px) {
   .container-content {
     color: white; }
@@ -337,3 +344,7 @@ a:hover {
 
   #content-work {
     background-color: #3F51B5; } }
+  
+  #content-map {
+    background-color: #bf40bf; } 
+  
