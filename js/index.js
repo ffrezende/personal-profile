@@ -1,51 +1,62 @@
-$(document).ready(function () {
-  $('#header-top').click(function () {
+$(document).ready(() => {
+  $('#header-top').click(() => {
     $('#header-top').children('i').toggleClass('rotate-180deg');
   })
-  
-  $('#header-work').click(function () {
+
+  $('#header-work').click(() => {
     $('#header-work').toggleClass('box-shadow');
-    $('#content-work').slideToggle('slow');
+    $('#content-form-trab').slideToggle('slow');
     $('#header-work').children('i').toggleClass('rotate-180deg');
   });
-  
-  $('#header-design').click(function () {
+
+  $('#header-design').click(() => {
     $('#header-design').toggleClass('box-shadow');
-    $('#content-design').slideToggle('slow');
+    $('#content-project').slideToggle('slow');
     $('#header-design').children('i').toggleClass('rotate-180deg');
   });
-  
-  $('#curriculum').click(function () {
+
+  $('#curriculum').click(() => {
     $('#curriculum').toggleClass('box-shadow');
-    $('#content-drawings').slideToggle('slow');
+    $('#content-curriculum').slideToggle('slow');
     $('#curriculum').children('i').toggleClass('rotate-180deg');
   });
 
-  $('#mapa').click(function () {
+  $('#mapa').click(() => {
     $('#mapa').toggleClass('box-shadow');
     $('#content-map').slideToggle('slow');
     $('#mapa').children('i').toggleClass('rotate-180deg');
   });
+
+  $('#btn-download').click(() => {
+    window.location = 'img/Curriculo_Fabricio.pdf';
+  });
+  const myMap = () => {
+    var mapProp = {
+      center: new google.maps.LatLng(51.508742, -0.120850),
+      zoom: 5,
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+  }
+  myMap();
 });
 
 var slideIndex = 1;
 
-function slideShow(container, n) {
-  var slideNum = $(container).length - 1;
-  
+const slideShow = (container, n) => {
+  let slideNum = $(container).length - 1;
+
   if (n > slideNum)
     slideIndex = 1;
 
   if (n < 1)
     slideIndex = slideNum;
 
-  for (var i = 0; i < slideNum; i++)
+  for (let i = 0; i < slideNum; i++)
     $(container)[i].style.display = 'none';
-  
-  $(container)[slideIndex-1].style.display = 'flex';
+
 }
 
-function slideSwitch(container, i) {
+const slideSwitch = (container, i) => {
   slideShow(container += ' div', slideIndex += i);
 }
 

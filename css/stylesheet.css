@@ -62,80 +62,69 @@ a:hover {
 
 .container-content {
   font-family: "Assistant", sans-serif; }
-  .container-content i {
-    padding: 0 .5em; }
-  .container-content .content-box {
-    min-width: 50%; }
-    .container-content .content-box .box-title {
-      margin-bottom: .25em;
-      font-weight: 200; }
-    .container-content .content-box .education-box {
-      padding-bottom: .75em; }
-      .container-content .content-box .education-box .education-experience-box {
-        margin-bottom: .5em;
-        margin-left: 3.5em; }
-        .container-content .content-box .education-box .education-experience-box span {
-          display: block; }
-          .container-content .content-box .education-box .education-experience-box span:first-of-type {
-            font-weight: 600; }
-          .container-content .content-box .education-box .education-experience-box span:nth-child(2) {
-            font-weight: 200; }
-          .container-content .content-box .education-box .education-experience-box span:last-of-type {
-            font-weight: 400; }
-    .container-content .content-box .skills-box {
-      align-items: flex-start;
-      flex-flow: wrap;
-      margin-left: 3.5em;
-      padding-bottom: .75em;
-      padding-top: .25em; }
-      .container-content .content-box .skills-box .skill-item {
-        margin-right: .25em;
-        margin-bottom: .5em;
-        padding: .1em .5em;
-        border-radius: 1em; }
-        .container-content .content-box .skills-box .skill-item i {
-          padding: 0 .25em; }
-    .container-content .content-box .work-box {
-      padding-bottom: .75em; }
-      .container-content .content-box .work-box {
-        margin-bottom: .5em;
-        width: 100%; }
-        .container-content .content-box .work-box .experience-description span {
-          display: block; }
-          .container-content .content-box .work-box .experience-description span:first-of-type {
-            font-weight: 600; }
-          .container-content .content-box .work-box .experience-description span:nth-child(2) {
-            font-weight: 200; }
-          .container-content .content-box .work-box .experience-description span:last-of-type {
-            font-weight: 400; }
-        .container-content .content-box .work-box .experience-logo {
-          padding: 0 .5em;
-          width: 2.5em; }
+.container-content i {
+  padding: 0 .5em; }
+.container-content .content-box {
+  min-width: 50%; }
+.container-content .content-box .box-title {
+  margin-bottom: .25em;
+  font-weight: 200; }
+.container-content .content-box .education-box {
+  padding-bottom: .75em; }
+.container-content .content-box .education-box .education-experience-box {
+  margin-bottom: .5em;
+  margin-left: 3.5em; }
+.container-content .content-box .education-box .education-experience-box span {
+  display: block; }
+.container-content .content-box .education-box .education-experience-box span:first-of-type {
+  font-weight: 600; }
+.container-content .content-box .education-box .education-experience-box span:nth-child(2) {
+  font-weight: 200; }
+.container-content .content-box .education-box .education-experience-box span:last-of-type {
+  font-weight: 400; }
+ .container-content .content-box .skills-box {
+  align-items: flex-start;
+  flex-flow: wrap;
+  margin-left: 3.5em;
+  padding-bottom: .75em;
+  padding-top: .25em; }
+.container-content .content-box .skills-box .skill-item {
+  margin-right: .25em;
+  margin-bottom: .5em;
+  padding: .1em .5em;
+  border-radius: 1em; }
+.container-content .content-box .skills-box .skill-item i {
+  padding: 0 .25em; }
+.container-content .content-box .work-box {
+  padding-bottom: .75em; }
+.container-content .content-box .work-box {
+  margin-bottom: .5em;
+  width: 100%; }
 
 .container-header {
   position: fixed;
   top: 0;
   width: 100%; }
-  .container-header .header-bar {
-    margin: 0;
-    background-color: #212121; }
-    .container-header .header-bar a:hover i {
-      transform: scale(1.5); }
+.container-header .header-bar {
+  margin: 0;
+  background-color: #212121; }
+.container-header .header-bar a:hover i {
+  transform: scale(1.5); }
 
 .container-profile {
   color: #212121;
   font-family: "Assistant", sans-serif; }
-  .container-profile img {
-    display: block;
-    margin: 1em 0;
-    width: 50%;
-    border-radius: 50%; }
-  .container-profile span {
-    font-family: "Assistant", sans-serif;
-    font-weight: 200;
-    text-align: center; }
-  .container-profile span:first-of-type {
-    font-size: 3em; }
+.container-profile img {
+  display: block;
+  margin: 1em 0;
+  width: 50%;
+  border-radius: 50%; }
+.container-profile span {
+  font-family: "Assistant", sans-serif;
+  font-weight: 200;
+  text-align: center; }
+.container-profile span:first-of-type {
+  font-size: 3em; }
 
 .header-bar {
   height: 2.5em;
@@ -144,46 +133,14 @@ a:hover {
   font-family: "Assistant", sans-serif;
   font-weight: 200;
   line-height: 2.5em; }
-  .header-bar a {
-    color: white; }
-  .header-bar i:last-of-type {
-    float: right;
-    padding: 0 1em;
-    transition: all 250ms ease-in-out; }
+.header-bar a {
+  color: white; }
+.header-bar i:last-of-type {
+  float: right;
+  padding: 0 1em;
+  transition: all 250ms ease-in-out; }
 
-.slider .img-shadow img {
-  margin: 0 .5em; }
-.slider .slide {
-  padding: 1em;
-  background-color: white;
-  justify-content: center;
-  transition: all 500ms ease-in-out; }
-  .slider .slide img {
-    max-height: 100%; }
-.slider .slider-nav {
-  color: #212121;
-  font-size: 2em;
-  height: 5em;
-  margin-top: -5em;
-  opacity: .25;
-  text-align: center;
-  z-index: 2; }
-  .slider .slider-nav i {
-    transition: all 250ms ease-in-out; }
-    .slider .slider-nav i:active {
-      color: #9C27B0;
-      outline: none; }
-    .slider .slider-nav i:first-of-type {
-      float: left;
-      font-size: 1.5em; }
-    .slider .slider-nav i:hover {
-      cursor: pointer;
-      transform: scale(0.8); }
-    .slider .slider-nav i:last-of-type {
-      float: right;
-      font-size: 1.5em; }
-
-#content-design, #content-drawings, #content-work, #content-map {
+#content-project, #content-curriculum, #content-form-trab, #content-map {
   display: none; }
 
 #header-design {
@@ -220,35 +177,35 @@ a:hover {
     min-width: 12em;
     background-color: #212121;
     color: #212121; }
-    .container-content .content-box {
-      height: 41em;
-      left: 0;
-      margin-left: 2em;
-      margin-top: 2em;
-      position: absolute;
-      top: 0;
-      width: 72.5%;
-      z-index: -1; }
-      .container-content .content-box .box-title {
-        margin-left: 1.75em;
-        font-size: 2em; }
-      .container-content .content-box .education-box .education-experience-box {
-        height: 4.5em; }
-        .container-content .content-box .education-box .education-experience-box span {
-          font-size: 1.25em; }
-          .container-content .content-box .education-box .education-experience-box span:first-of-type {
-            color: #3F51B5; }
-          .container-content .content-box .education-box .education-experience-box span:nth-child(2), .container-content .content-box .education-box .education-experience-box span:last-of-type {
-            font-size: 1em; }
-      .container-content .content-box .skills-box .skill-item {
-        border: 1px solid #212121;
-        font-size: 1em; }
-      .container-content .content-box .work-box .experience-description span {
-        font-size: 1.25em; }
-        .container-content .content-box .work-box .experience-description span:first-of-type {
-          color: #3F51B5; }
-        .container-content .content-box .work-box .experience-description span:nth-child(2), .container-content .content-box .work-box .experience-description span:last-of-type {
-          font-size: 1em; }
+  .container-content .content-box {
+    height: 41em;
+    left: 0;
+    margin-left: 2em;
+    margin-top: 2em;
+    position: absolute;
+    top: 0;
+    width: 72.5%;
+    z-index: -1; }
+  .container-content .content-box .box-title {
+    margin-left: 1.75em;
+    font-size: 2em; }
+  .container-content .content-box .education-box .education-experience-box {
+    height: 4.5em; }
+  .container-content .content-box .education-box .education-experience-box span {
+    font-size: 1.25em; }
+  .container-content .content-box .education-box .education-experience-box span:first-of-type {
+    color: #3F51B5; }
+  .container-content .content-box .education-box .education-experience-box span:nth-child(2), .container-content .content-box .education-box .education-experience-box span:last-of-type {
+    font-size: 1em; }
+  .container-content .content-box .skills-box .skill-item {
+    border: 1px solid #212121;
+    font-size: 1em; }
+  .container-content .content-box .work-box .experience-description span {
+    font-size: 1.25em; }
+  .container-content .content-box .work-box .experience-description span:first-of-type {
+    color: #3F51B5; }
+  .container-content .content-box .work-box .experience-description span:nth-child(2), .container-content .content-box .work-box .experience-description span:last-of-type {
+    font-size: 1em; }
 
   .container-header {
     display: none; }
@@ -268,55 +225,51 @@ a:hover {
     min-width: 12em;
     background-color: #212121;
     color: white; }
-    .container-profile img {
-      width: 80%; }
-    .container-profile span {
-      display: block;
-      font-size: .7em; }
-    .container-profile span:first-of-type {
-      margin-bottom: .25em;
-      font-size: 2.5em; }
+  .container-profile img {
+    width: 80%; }
+  .container-profile span {
+    display: block;
+    font-size: .7em; }
+  .container-profile span:first-of-type {
+    margin-bottom: .25em;
+    font-size: 2.5em; }
 
-  .slider .slide {
-    height: 12em; }
-    .slider .slide img {
-      max-width: 80%; }
-
-  #content-design, #content-drawings, #content-work, #content-map {
+  #content-project, #content-curriculum, #content-form-trab, #content-map {
     background-color: white; }
 
-  #content-design .box-title {
+  #content-project .box-title {
     color: rgb(2, 34, 34);; }
 
    #content-map .box-title {
     color: #bf40bf; 
     };
-  #content-drawings .box-title {
+    
+  #content-curriculum .box-title {
     color: rgb(2, 34, 34); }
 
-  #content-work .box-title {
+  #content-form-trab .box-title {
     color: #3F51B5; } }
 
 @media (max-width: 800px) {
   .container-content {
     color: white; }
-    .container-content .content-box {
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5); }
-      .container-content .content-box .box-title {
-        margin-left: 3.5em;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
-      .container-content .content-box .education-box .education-experience-box {
-        height: 3em; }
-        .container-content .content-box .education-box .education-experience-box span:nth-child(2), .container-content .content-box .education-box .education-experience-box span:last-of-type {
-          font-size: .6em; }
-      .container-content .content-box .skills-box .skill-item {
-        border: 1px solid white;
-        font-size: .7em; }
-      .container-content .content-box .work-box .experience-description span:nth-child(2), .container-content .content-box .work-box .experience-description span:last-of-type {
-        font-size: .6em; }
+  .container-content .content-box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5); }
+  .container-content .content-box .box-title {
+    margin-left: 3.5em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+  .container-content .content-box .education-box .education-experience-box {
+    height: 3em; }
+  .container-content .content-box .education-box .education-experience-box span:nth-child(2), .container-content .content-box .education-box .education-experience-box span:last-of-type {
+    font-size: .6em; }
+  .container-content .content-box .skills-box .skill-item {
+    border: 1px solid white;
+    font-size: .7em; }
+  .container-content .content-box .work-box .experience-description span:nth-child(2), .container-content .content-box .work-box .experience-description span:last-of-type {
+    font-size: .6em; }
 
   .container-contact {
     margin-top: .5em;
@@ -329,20 +282,13 @@ a:hover {
     margin-bottom: 2em;
     margin-top: 2em; }
 
-  .slider:nth-of-type {
-    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, 0.5); }
-  .slider .slide {
-    height: 15em; }
-    .slider .slide img {
-      max-width: 100%; }
-
-  #content-design {
+  #content-project {
     background-color: #4CAF50; }
 
-  #content-drawings {
+  #content-curriculum {
     background-color: #F44336; }
 
-  #content-work {
+  #content-form-trab {
     background-color: #3F51B5; } }
   
   #content-map {
